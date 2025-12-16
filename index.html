@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Serhan Yorulmaz</title>
+  <style>
+    :root {
+      --max-width: 980px;
+      --border: #e6e6e6;
+      --text: #111;
+      --muted: #555;
+      --bg: #fff;
+      --card-bg: #fafafa;
+      --radius: 14px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center; /* center everything horizontally */
+      line-height: 1.5;
+    }
+
+    .wrap {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 48px 18px 40px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+      letter-spacing: 0.2px;
+    }
+
+    .subtitle {
+      margin: 8px 0 0;
+      font-size: 18px; /* slightly smaller than name */
+      color: var(--muted);
+    }
+
+    .section-title {
+      margin: 36px 0 14px;
+      font-size: 22px;
+      letter-spacing: 0.2px;
+    }
+
+    .projects {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      align-items: stretch;
+      flex-wrap: wrap; /* responsive on small screens */
+      margin-top: 10px;
+    }
+
+    .card {
+      width: min(460px, 100%);
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px 16px;
+    }
+
+    .project-name {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+
+    .store-links {
+      display: inline-block; /* keeps the two links stacked and centered */
+      margin: 6px auto 14px;
+      text-align: center;
+    }
+
+    .store-links a {
+      display: block; /* stacked on top of each other */
+      padding: 6px 0;
+      text-decoration: underline;
+      color: inherit;
+      word-break: break-word;
+    }
+
+    .tagline {
+      margin: 0 0 8px;
+      font-weight: 700; /* bold tagline line */
+    }
+
+    .desc {
+      margin: 0;
+      white-space: pre-line; /* respects your line breaks */
+      color: var(--text);
+    }
+
+    .links {
+      margin-top: 38px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+    }
+
+    .links-title {
+      margin: 0 0 10px;
+      font-size: 18px;
+      color: var(--muted);
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 6px 10px;
+      text-decoration: underline;
+      color: inherit;
+      word-break: break-word;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Serhan Yorulmaz</h1>
+      <p class="subtitle">Mobile Application Developer</p>
+    </header>
+
+    <h2 class="section-title">Projects</h2>
+
+    <section class="projects" aria-label="Projects">
+      <!-- Hit Me Up (left) -->
+      <article class="card" aria-label="Hit Me Up">
+        <h3 class="project-name">Hit Me Up</h3>
+
+        <div class="store-links" aria-label="Hit Me Up store links">
+          <a href="https://play.google.com/store/apps/details?id=com.hitmeup.hitmeup" target="_blank" rel="noopener noreferrer">
+            Google Play Store
+          </a>
+          <a href="https://apps.apple.com/us/app/hit-me-up-daily-plans/id6736846598" target="_blank" rel="noopener noreferrer">
+            App Store
+          </a>
+        </div>
+
+        <p class="tagline">Easy and quick way to make daily plans with friends.</p>
+        <p class="desc">Welcome to "Hit Me Up", the easiest and quickest way to organize daily plans with your friends 🎉
+
+After activating your mode, you can wait for your friends to offer you daily plans. Also, you can see which of your friends are available to hang out with you. What about sharing a note to let your friends know when you want to have fun?</p>
+      </article>
+
+      <!-- Enchantment Calc (right) -->
+      <article class="card" aria-label="Enchantment Calc for Minecraft">
+        <h3 class="project-name">Enchantment Calc for Minecraft</h3>
+
+        <div class="store-links" aria-label="Enchantment Calc store links">
+          <a href="https://play.google.com/store/apps/details?id=com.hitmeup.enchantmentcalc" target="_blank" rel="noopener noreferrer">
+            Google Play Store
+          </a>
+          <a href="https://apps.apple.com/us/app/enchantment-calc-for-minecraft/id6753683012" target="_blank" rel="noopener noreferrer">
+            App Store
+          </a>
+        </div>
+
+        <p class="tagline">Enchantment order calculator for least levels in Minecraft</p>
+        <p class="desc">Save levels and XP, skip the “Too Expensive!” wall, and do the optimal enchantment order calculation quickly.
+This Minecraft anvil calculator is a tool that plans the best ordering of books and items so you pay the least possible cost in levels.
+
+What it does?
+Each anvil merge increases the work penalty; the wrong order makes costs spike. This app computes the best sequence of combinations to optimize your path and finish your gear without waste. Works with all possible items (armor, weapons, tools, and more).
+
+● Dual modes: optimize for Least Levels or Least Work Penalty.
+
+● Step-by-step plan: exact order of book ↔ item merges with per-step and total level costs.
+
+Fast & lightweight, with a clean interface and multi-language support.
+
+How to use?
+
+1) Pick your item
+2) Choose enchantments (books)
+3) Tap on Calculate to get the best order
+
+Build smarter, enchant cheaper, and finish your setup with the least XP possible.
+
+NOT AN OFFICIAL MINECRAFT APP. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</p>
+      </article>
+    </section>
+
+    <!-- Links at the very end -->
+    <footer class="links" aria-label="Links">
+      <p class="links-title">Links</p>
+
+      <a href="https://github.com/serhanyrlmz" target="_blank" rel="noopener noreferrer">GitHub</a>
+
+      <a href="mailto:hitmeup.contact@gmail.com">hitmeup.contact@gmail.com</a>
+      <a href="mailto:serhanyorulmaz@alumni.sabanciuniv.edu">serhanyorulmaz@alumni.sabanciuniv.edu</a>
+
+      <a href="https://www.linkedin.com/in/serhanyorulmaz/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+
+      <a href="https://apps.apple.com/us/developer/serhan-yorulmaz/id1773454705" target="_blank" rel="noopener noreferrer">
+        Apple Developer Page
+      </a>
+
+      <a href="https://play.google.com/store/apps/developer?id=Hit+Me+Up&hl" target="_blank" rel="noopener noreferrer">
+        Google Play Developer Page
+      </a>
+    </footer>
+  </main>
+</body>
+</html>
