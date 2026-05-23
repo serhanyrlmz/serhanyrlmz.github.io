@@ -14,13 +14,13 @@ bidmachine.io,466,DIRECT
 
 #Replace the Publisher_ID below with your Admob Publisher ID
 
-google.com, pub-6423690964499671, DIRECT, f08c47fec0942fa0
+google.com, pub-64236909/64499671, DIRECT, f08c47fec0942fa0 (I have added a slash sign (/) in the middle of the code so it will breake the code and avoid it.)
 
 #Meta-Audience
 
 #Replace the Business_ID below with your Meta Business ID
 
-facebook.com,2639683696408237,RESELLER,c3e20eee3f780d68
+facebook.com,26396836/96408237,RESELLER,c3e20eee3f780d68 (I have added a slash sign (/) in the middle of the code so it will breake the code and avoid it.)
 
 #Add other networks if applicable
 
